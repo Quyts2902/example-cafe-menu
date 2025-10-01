@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Example Cafe Menu</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="header">
+    <h1>EXAMPLE CAFE MENU</h1>
+    <div class="nav">
+      <a href="#"><img src="./assets/icons8-home-50.png" alt="Home"; width="15px" height="15px"> </a>
+      <a href="#">STARTER</a>
+      <a href="#">MAIN COURSES</a>
+      <a href="#">DESSERTS</a>
+      <input type="text" placeholder="Search"><button>Go</button>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="b-box left">
+      <div class="b-box-nav">Cafe Latte</div>
+      <div class="b-box-nav">Capuchino</div>
+      <div class="b-box-nav">Ocean Blue</div>
+      <div class="b-box-nav">Ice-cream Cafe</div>
+      <div class="b-box-nav">Order Online</div>
+      <div class="b-img">
+        <img src="./assets/company.png" alt="Company">
+      </div>
+    </div>
+
+    <div class="b-box middle">
+      <div class="middle-content">Starter</div>
+      <ul>
+        <li>Chestnut and Mushroom Goujons <a href="#">(v)</a></li>
+        <li>Goat Cheese <a href="#">(v)</a></li>
+        <li style="color: rgb(200, 157, 57); font-weight: 900;">HONEY SOY CHICKEN KEBABS <a href="#">(v)</a></li>
+        <li>Seafood Salad <a href="#">(v)</a></li>
+      </ul>
+      <a href="#">Back to Top</a>
+
+      <div class="middle-content">Desserts</div>
+      <ul>
+        <li>Lemon Sorbet <a href="#">(v)</a></li>
+        <li>Chocolate Mud Pie <a href="#">(v)</a></li>
+        <li>Pecan Pie <a href="#">(v)</a></li>
+        <li>Selection of fine Cheeses from Around the World <a href="#">(v)</a></li>
+      </ul>
+      <a href="#">Back to Top</a>
+
+      <div class="middle-content">INFORMATION</div>
+      <div class="middle-form">
+        <table border="0" style="margin: auto;">
+          <tr>
+            <td><input class="form-box" type="text" placeholder="First name"></td>
+            <td><input class="form-box" type="text" placeholder="Last name"></td>
+          </tr>
+          <tr>
+            <td><input class="form-box" type="text" placeholder="Email"></td>
+            <td><input class="form-box" type="text" placeholder="Telephone"></td>
+          </tr>
+          <tr>
+            <td>
+              <select class="form-box">
+                <option>USA</option>
+              </select>
+            </td>
+            <td>
+              <input type="radio" name="nation"> Vietnamese
+              <input type="radio" name="nation"> Foreigner
+            </td>
+          </tr>
+          <tr>
+            <td colspan="2">
+              <textarea placeholder="Comment"></textarea>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <input type="button" value="Submit" class="button-form">
+              <input type="button" value="Cancel" class="button-form">
+            </td>
+          </tr>
+        </table>
+      </div>
+    </div>
+
+    <div class="b-box right">
+      <div class="right-content">Events</div>
+      <table border="0" style="margin: auto; width: 80%; color: white;">
+        <tr>
+          <td><div class="img-content">Regular Meetings</div></td>
+        </tr>
+        <tr>
+          <td><img src="./assets/meeting.png" alt="Meeting" class="img-right"></td>
+        </tr>
+        <tr>
+          <td>
+            <p>Host your regular team meetings or activities in the comfort of your own private room.
+                <span id="moreText" style="display:none;">
+                Charge up on Kith's aromatic coffee and delectable dishes for that extra boost in your work! 
+                </span>
+                <a href="#" onclick="document.getElementById('moreText').style.display='inline'; this.style.display='none';">Read more...</a>
+            </p>
+          </td>
+        </tr>
+        <tr>
+          <td><div class="img-content">Product Launches</div></td>
+        </tr>
+        <tr>
+          <td><img src="./assets/launch.png" alt="Meeting" class="img-right"></td>
+        </tr>
+        <tr>
+          <td>
+            <p>Launch your product with ease in a space that truly fits its image.
+                <span id="moreText" style="display:none;">
+                Create an unforgettable experience for your guests with our spacious outlets! Whether you want to host an intimate celebration or launch an event for hundreds of guests, Kith's space is customisable to your needs.
+                </span>
+                <a href="#" onclick="document.getElementById('moreText').style.display='inline'; this.style.display='none';">Read more...</a>
+            </p>
+          </td>
+        </tr>
+      </table>
+    </div>
+  </div>
+
+  <div class="footer">
+    <h2>ABC Company © - 12345678 - abccoffee@gmail.com</h2>
+  </div>
+
+</body>
+</html>
