@@ -122,18 +122,28 @@ body {
   margin-top: 10px;
   text-align: center;
 }
+.middle-form table {
+  width: 100%;
+  table-layout: fixed;  
+}
+
+.middle-form td {
+  width: 50%;
+  padding: 5px;
+}
 
 .form-box {
-  width: 90%;
+  width: 100%;
   padding: 8px;
   margin: 5px;
 }
 
 textarea {
-  width: 95%;
-  height: 80px;
+  width: 99%;
+  height: 100px;
   margin: 10px 0;
-  padding: 8px;
+  padding: 12px;
+  font-size: 15px;
 }
 
 .button-form {
