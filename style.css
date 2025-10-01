@@ -97,9 +97,10 @@ body {
   color: white;
   font-weight: bold;
   text-align: center;
-  margin: 20px 0 10px 0;
+  margin: 20px auto;
   padding: 6px;
   letter-spacing: 5px;
+  width: 300px;
 }
 
 .b-box.middle ul {
